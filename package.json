@@ -1,0 +1,11 @@
+{
+  "name": "test-koop",
+  "version": "1.0.0",
+  "description": "test setup for Koop",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
