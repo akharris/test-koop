@@ -7,7 +7,7 @@ function Model (koop) {
     // pull id from req.pram
     // const id = req.param.id
     const id = 'johan/world.geo.json/master/countries.geo.json'
-    request(url, (err, res, body) => {
+    request(url + id, (err, res, body) => {
       if (err) return callback(err)
       const json = JSON.parse(res.body)
       callback(null, json)
