@@ -3,7 +3,6 @@ const request = require('request')
 
 function Model (koop) {
   Model.prototype.getData = function(req, callback) {
-    console.log('getData called!')
     const url = 'https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json'
 
     request(url, (err, res, body) => {
